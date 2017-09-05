@@ -1,5 +1,10 @@
 $(document).ready(function(){
-	$(".run").hide(){
+	$(".run").hide(function(){
+		});
+		$("#button1").click(function(){
+			
+		
+		$(".run").slideToggle();
 		
 	});
 });
