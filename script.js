@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	$("#button1").show();
+	$("#button7").show();
 		$("#button1").click(function(){
 		$("#p2").slideToggle();
 		$("#button1").hide();
@@ -35,8 +36,14 @@ $(document).ready(function(){
 		});
 		
 		$("#button6").click(function(){
-		$("#p10").hide();
-		$("#p12").slideToggle();
+		$("#p10").slideToggle();
+		$("#p12").show();
 		$("#button6").hide();
+		});
+		
+		$("#button7").click(function(){
+		$(".run").show();
+		
+		
 		});
 });
