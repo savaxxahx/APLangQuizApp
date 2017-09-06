@@ -13,3 +13,11 @@ p{
 h{
 	text-align:left;
 }
+
+.run{
+	display: none;
+}
+
+.circle{
+	display: none;
+}
